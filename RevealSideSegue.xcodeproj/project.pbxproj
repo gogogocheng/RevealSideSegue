@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3778498170EB09600B7B7C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3778497170EB09600B7B7C8 /* UIKit.framework */; };
+		E377849A170EB09600B7B7C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3778499170EB09600B7B7C8 /* Foundation.framework */; };
+		E377849C170EB09600B7B7C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E377849B170EB09600B7B7C8 /* CoreGraphics.framework */; };
+		E37784A2170EB09600B7B7C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E37784A0170EB09600B7B7C8 /* InfoPlist.strings */; };
+		E37784A4170EB09600B7B7C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784A3170EB09600B7B7C8 /* main.m */; };
+		E37784A8170EB09600B7B7C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784A7170EB09600B7B7C8 /* AppDelegate.m */; };
+		E37784AA170EB09600B7B7C8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E37784A9170EB09600B7B7C8 /* Default.png */; };
+		E37784AC170EB09600B7B7C8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E37784AB170EB09600B7B7C8 /* Default@2x.png */; };
+		E37784AE170EB09600B7B7C8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E37784AD170EB09600B7B7C8 /* Default-568h@2x.png */; };
+		E37784B6170EB09700B7B7C8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37784B5170EB09700B7B7C8 /* SenTestingKit.framework */; };
+		E37784B7170EB09700B7B7C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3778497170EB09600B7B7C8 /* UIKit.framework */; };
+		E37784B8170EB09700B7B7C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3778499170EB09600B7B7C8 /* Foundation.framework */; };
+		E37784C0170EB09700B7B7C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E37784BE170EB09700B7B7C8 /* InfoPlist.strings */; };
+		E37784C3170EB09700B7B7C8 /* RevealSideSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784C2170EB09700B7B7C8 /* RevealSideSegueTests.m */; };
+		E37784CF170EB11E00B7B7C8 /* RevealSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784CE170EB11E00B7B7C8 /* RevealSegue.m */; };
+		E37784D3170EB27100B7B7C8 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37784D2170EB27100B7B7C8 /* HomeView.storyboard */; };
+		E37784D8170EB2D300B7B7C8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784D5170EB2D300B7B7C8 /* HomeViewController.m */; };
+		E37784D9170EB2D300B7B7C8 /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784D7170EB2D300B7B7C8 /* SideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E37784B9170EB09700B7B7C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E377848C170EB09600B7B7C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3778493170EB09600B7B7C8;
+			remoteInfo = RevealSideSegue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3778494170EB09600B7B7C8 /* RevealSideSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevealSideSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3778497170EB09600B7B7C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3778499170EB09600B7B7C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E377849B170EB09600B7B7C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E377849F170EB09600B7B7C8 /* RevealSideSegue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RevealSideSegue-Info.plist"; sourceTree = "<group>"; };
+		E37784A1170EB09600B7B7C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E37784A3170EB09600B7B7C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E37784A5170EB09600B7B7C8 /* RevealSideSegue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RevealSideSegue-Prefix.pch"; sourceTree = "<group>"; };
+		E37784A6170EB09600B7B7C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RevealSideSegue/AppDelegate.h; sourceTree = "<group>"; };
+		E37784A7170EB09600B7B7C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RevealSideSegue/AppDelegate.m; sourceTree = "<group>"; };
+		E37784A9170EB09600B7B7C8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E37784AB170EB09600B7B7C8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E37784AD170EB09600B7B7C8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E37784B4170EB09700B7B7C8 /* RevealSideSegueTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevealSideSegueTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37784B5170EB09700B7B7C8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E37784BD170EB09700B7B7C8 /* RevealSideSegueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RevealSideSegueTests-Info.plist"; sourceTree = "<group>"; };
+		E37784BF170EB09700B7B7C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E37784C1170EB09700B7B7C8 /* RevealSideSegueTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevealSideSegueTests.h; sourceTree = "<group>"; };
+		E37784C2170EB09700B7B7C8 /* RevealSideSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealSideSegueTests.m; sourceTree = "<group>"; };
+		E37784CD170EB11E00B7B7C8 /* RevealSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevealSegue.h; sourceTree = "<group>"; };
+		E37784CE170EB11E00B7B7C8 /* RevealSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevealSegue.m; sourceTree = "<group>"; };
+		E37784D2170EB27100B7B7C8 /* HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		E37784D4170EB2D300B7B7C8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E37784D5170EB2D300B7B7C8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E37784D6170EB2D300B7B7C8 /* SideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideViewController.h; sourceTree = "<group>"; };
+		E37784D7170EB2D300B7B7C8 /* SideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3778491170EB09600B7B7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3778498170EB09600B7B7C8 /* UIKit.framework in Frameworks */,
+				E377849A170EB09600B7B7C8 /* Foundation.framework in Frameworks */,
+				E377849C170EB09600B7B7C8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37784B0170EB09700B7B7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37784B6170EB09700B7B7C8 /* SenTestingKit.framework in Frameworks */,
+				E37784B7170EB09700B7B7C8 /* UIKit.framework in Frameworks */,
+				E37784B8170EB09700B7B7C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E377848B170EB09600B7B7C8 = {
+			isa = PBXGroup;
+			children = (
+				E37784CC170EB0D600B7B7C8 /* RevealSideSegueDemo */,
+				E377849D170EB09600B7B7C8 /* RevealSideSegue */,
+				E37784BB170EB09700B7B7C8 /* RevealSideSegueTests */,
+				E3778496170EB09600B7B7C8 /* Frameworks */,
+				E3778495170EB09600B7B7C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3778495170EB09600B7B7C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3778494170EB09600B7B7C8 /* RevealSideSegue.app */,
+				E37784B4170EB09700B7B7C8 /* RevealSideSegueTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3778496170EB09600B7B7C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3778497170EB09600B7B7C8 /* UIKit.framework */,
+				E3778499170EB09600B7B7C8 /* Foundation.framework */,
+				E377849B170EB09600B7B7C8 /* CoreGraphics.framework */,
+				E37784B5170EB09700B7B7C8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E377849D170EB09600B7B7C8 /* RevealSideSegue */ = {
+			isa = PBXGroup;
+			children = (
+				E37784CD170EB11E00B7B7C8 /* RevealSegue.h */,
+				E37784CE170EB11E00B7B7C8 /* RevealSegue.m */,
+			);
+			path = RevealSideSegue;
+			sourceTree = "<group>";
+		};
+		E377849E170EB09600B7B7C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E377849F170EB09600B7B7C8 /* RevealSideSegue-Info.plist */,
+				E37784A0170EB09600B7B7C8 /* InfoPlist.strings */,
+				E37784A3170EB09600B7B7C8 /* main.m */,
+				E37784A5170EB09600B7B7C8 /* RevealSideSegue-Prefix.pch */,
+				E37784A9170EB09600B7B7C8 /* Default.png */,
+				E37784AB170EB09600B7B7C8 /* Default@2x.png */,
+				E37784AD170EB09600B7B7C8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = RevealSideSegue;
+			sourceTree = "<group>";
+		};
+		E37784BB170EB09700B7B7C8 /* RevealSideSegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				E37784C1170EB09700B7B7C8 /* RevealSideSegueTests.h */,
+				E37784C2170EB09700B7B7C8 /* RevealSideSegueTests.m */,
+				E37784BC170EB09700B7B7C8 /* Supporting Files */,
+			);
+			path = RevealSideSegueTests;
+			sourceTree = "<group>";
+		};
+		E37784BC170EB09700B7B7C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E37784BD170EB09700B7B7C8 /* RevealSideSegueTests-Info.plist */,
+				E37784BE170EB09700B7B7C8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E37784CC170EB0D600B7B7C8 /* RevealSideSegueDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E37784D2170EB27100B7B7C8 /* HomeView.storyboard */,
+				E37784D4170EB2D300B7B7C8 /* HomeViewController.h */,
+				E37784D5170EB2D300B7B7C8 /* HomeViewController.m */,
+				E37784D6170EB2D300B7B7C8 /* SideViewController.h */,
+				E37784D7170EB2D300B7B7C8 /* SideViewController.m */,
+				E37784A6170EB09600B7B7C8 /* AppDelegate.h */,
+				E37784A7170EB09600B7B7C8 /* AppDelegate.m */,
+				E377849E170EB09600B7B7C8 /* Supporting Files */,
+			);
+			name = RevealSideSegueDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3778493170EB09600B7B7C8 /* RevealSideSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37784C6170EB09700B7B7C8 /* Build configuration list for PBXNativeTarget "RevealSideSegue" */;
+			buildPhases = (
+				E3778490170EB09600B7B7C8 /* Sources */,
+				E3778491170EB09600B7B7C8 /* Frameworks */,
+				E3778492170EB09600B7B7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealSideSegue;
+			productName = RevealSideSegue;
+			productReference = E3778494170EB09600B7B7C8 /* RevealSideSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E37784B3170EB09700B7B7C8 /* RevealSideSegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37784C9170EB09700B7B7C8 /* Build configuration list for PBXNativeTarget "RevealSideSegueTests" */;
+			buildPhases = (
+				E37784AF170EB09700B7B7C8 /* Sources */,
+				E37784B0170EB09700B7B7C8 /* Frameworks */,
+				E37784B1170EB09700B7B7C8 /* Resources */,
+				E37784B2170EB09700B7B7C8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E37784BA170EB09700B7B7C8 /* PBXTargetDependency */,
+			);
+			name = RevealSideSegueTests;
+			productName = RevealSideSegueTests;
+			productReference = E37784B4170EB09700B7B7C8 /* RevealSideSegueTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E377848C170EB09600B7B7C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "qian cheng";
+			};
+			buildConfigurationList = E377848F170EB09600B7B7C8 /* Build configuration list for PBXProject "RevealSideSegue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E377848B170EB09600B7B7C8;
+			productRefGroup = E3778495170EB09600B7B7C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3778493170EB09600B7B7C8 /* RevealSideSegue */,
+				E37784B3170EB09700B7B7C8 /* RevealSideSegueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3778492170EB09600B7B7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37784A2170EB09600B7B7C8 /* InfoPlist.strings in Resources */,
+				E37784AA170EB09600B7B7C8 /* Default.png in Resources */,
+				E37784AC170EB09600B7B7C8 /* Default@2x.png in Resources */,
+				E37784AE170EB09600B7B7C8 /* Default-568h@2x.png in Resources */,
+				E37784D3170EB27100B7B7C8 /* HomeView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37784B1170EB09700B7B7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37784C0170EB09700B7B7C8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E37784B2170EB09700B7B7C8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3778490170EB09600B7B7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37784A4170EB09600B7B7C8 /* main.m in Sources */,
+				E37784A8170EB09600B7B7C8 /* AppDelegate.m in Sources */,
+				E37784CF170EB11E00B7B7C8 /* RevealSegue.m in Sources */,
+				E37784D8170EB2D300B7B7C8 /* HomeViewController.m in Sources */,
+				E37784D9170EB2D300B7B7C8 /* SideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37784AF170EB09700B7B7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37784C3170EB09700B7B7C8 /* RevealSideSegueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E37784BA170EB09700B7B7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3778493170EB09600B7B7C8 /* RevealSideSegue */;
+			targetProxy = E37784B9170EB09700B7B7C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E37784A0170EB09600B7B7C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E37784A1170EB09600B7B7C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E37784BE170EB09700B7B7C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E37784BF170EB09700B7B7C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E37784C4170EB09700B7B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E37784C5170EB09700B7B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E37784C7170EB09700B7B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevealSideSegue/RevealSideSegue-Prefix.pch";
+				INFOPLIST_FILE = "RevealSideSegue/RevealSideSegue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E37784C8170EB09700B7B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevealSideSegue/RevealSideSegue-Prefix.pch";
+				INFOPLIST_FILE = "RevealSideSegue/RevealSideSegue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E37784CA170EB09700B7B7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RevealSideSegue.app/RevealSideSegue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevealSideSegue/RevealSideSegue-Prefix.pch";
+				INFOPLIST_FILE = "RevealSideSegueTests/RevealSideSegueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E37784CB170EB09700B7B7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RevealSideSegue.app/RevealSideSegue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevealSideSegue/RevealSideSegue-Prefix.pch";
+				INFOPLIST_FILE = "RevealSideSegueTests/RevealSideSegueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E377848F170EB09600B7B7C8 /* Build configuration list for PBXProject "RevealSideSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37784C4170EB09700B7B7C8 /* Debug */,
+				E37784C5170EB09700B7B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37784C6170EB09700B7B7C8 /* Build configuration list for PBXNativeTarget "RevealSideSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37784C7170EB09700B7B7C8 /* Debug */,
+				E37784C8170EB09700B7B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37784C9170EB09700B7B7C8 /* Build configuration list for PBXNativeTarget "RevealSideSegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37784CA170EB09700B7B7C8 /* Debug */,
+				E37784CB170EB09700B7B7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E377848C170EB09600B7B7C8 /* Project object */;
+}
