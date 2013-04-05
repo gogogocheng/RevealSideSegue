@@ -22,9 +22,9 @@
 		E37784C0170EB09700B7B7C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E37784BE170EB09700B7B7C8 /* InfoPlist.strings */; };
 		E37784C3170EB09700B7B7C8 /* RevealSideSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784C2170EB09700B7B7C8 /* RevealSideSegueTests.m */; };
 		E37784CF170EB11E00B7B7C8 /* RevealSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784CE170EB11E00B7B7C8 /* RevealSegue.m */; };
-		E37784D3170EB27100B7B7C8 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37784D2170EB27100B7B7C8 /* HomeView.storyboard */; };
-		E37784D8170EB2D300B7B7C8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784D5170EB2D300B7B7C8 /* HomeViewController.m */; };
-		E37784D9170EB2D300B7B7C8 /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784D7170EB2D300B7B7C8 /* SideViewController.m */; };
+		E37784F8170EC00600B7B7C8 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37784F3170EC00600B7B7C8 /* HomeView.storyboard */; };
+		E37784F9170EC00600B7B7C8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784F5170EC00600B7B7C8 /* HomeViewController.m */; };
+		E37784FA170EC00600B7B7C8 /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37784F7170EC00600B7B7C8 /* SideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 		E37784A1170EB09600B7B7C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E37784A3170EB09600B7B7C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E37784A5170EB09600B7B7C8 /* RevealSideSegue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RevealSideSegue-Prefix.pch"; sourceTree = "<group>"; };
-		E37784A6170EB09600B7B7C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RevealSideSegue/AppDelegate.h; sourceTree = "<group>"; };
-		E37784A7170EB09600B7B7C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RevealSideSegue/AppDelegate.m; sourceTree = "<group>"; };
+		E37784A6170EB09600B7B7C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		E37784A7170EB09600B7B7C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		E37784A9170EB09600B7B7C8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E37784AB170EB09600B7B7C8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E37784AD170EB09600B7B7C8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -57,13 +57,13 @@
 		E37784BF170EB09700B7B7C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E37784C1170EB09700B7B7C8 /* RevealSideSegueTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevealSideSegueTests.h; sourceTree = "<group>"; };
 		E37784C2170EB09700B7B7C8 /* RevealSideSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealSideSegueTests.m; sourceTree = "<group>"; };
-		E37784CD170EB11E00B7B7C8 /* RevealSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevealSegue.h; sourceTree = "<group>"; };
-		E37784CE170EB11E00B7B7C8 /* RevealSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevealSegue.m; sourceTree = "<group>"; };
-		E37784D2170EB27100B7B7C8 /* HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
-		E37784D4170EB2D300B7B7C8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		E37784D5170EB2D300B7B7C8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		E37784D6170EB2D300B7B7C8 /* SideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideViewController.h; sourceTree = "<group>"; };
-		E37784D7170EB2D300B7B7C8 /* SideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideViewController.m; sourceTree = "<group>"; };
+		E37784CD170EB11E00B7B7C8 /* RevealSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RevealSegue.h; path = ../RevealSegue.h; sourceTree = "<group>"; };
+		E37784CE170EB11E00B7B7C8 /* RevealSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RevealSegue.m; path = ../RevealSegue.m; sourceTree = "<group>"; };
+		E37784F3170EC00600B7B7C8 /* HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		E37784F4170EC00600B7B7C8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E37784F5170EC00600B7B7C8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E37784F6170EC00600B7B7C8 /* SideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideViewController.h; sourceTree = "<group>"; };
+		E37784F7170EC00600B7B7C8 /* SideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,6 @@
 		E377848B170EB09600B7B7C8 = {
 			isa = PBXGroup;
 			children = (
-				E37784CC170EB0D600B7B7C8 /* RevealSideSegueDemo */,
 				E377849D170EB09600B7B7C8 /* RevealSideSegue */,
 				E37784BB170EB09700B7B7C8 /* RevealSideSegueTests */,
 				E3778496170EB09600B7B7C8 /* Frameworks */,
@@ -124,8 +123,9 @@
 		E377849D170EB09600B7B7C8 /* RevealSideSegue */ = {
 			isa = PBXGroup;
 			children = (
-				E37784CD170EB11E00B7B7C8 /* RevealSegue.h */,
-				E37784CE170EB11E00B7B7C8 /* RevealSegue.m */,
+				E37784F1170EBF3A00B7B7C8 /* RevealSideSegue */,
+				E37784F2170EBF3A00B7B7C8 /* RevealSideSegueDemo */,
+				E377849E170EB09600B7B7C8 /* Supporting Files */,
 			);
 			path = RevealSideSegue;
 			sourceTree = "<group>";
@@ -142,7 +142,6 @@
 				E37784AD170EB09600B7B7C8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			path = RevealSideSegue;
 			sourceTree = "<group>";
 		};
 		E37784BB170EB09700B7B7C8 /* RevealSideSegueTests */ = {
@@ -164,19 +163,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E37784CC170EB0D600B7B7C8 /* RevealSideSegueDemo */ = {
+		E37784F1170EBF3A00B7B7C8 /* RevealSideSegue */ = {
 			isa = PBXGroup;
 			children = (
-				E37784D2170EB27100B7B7C8 /* HomeView.storyboard */,
-				E37784D4170EB2D300B7B7C8 /* HomeViewController.h */,
-				E37784D5170EB2D300B7B7C8 /* HomeViewController.m */,
-				E37784D6170EB2D300B7B7C8 /* SideViewController.h */,
-				E37784D7170EB2D300B7B7C8 /* SideViewController.m */,
+				E37784CD170EB11E00B7B7C8 /* RevealSegue.h */,
+				E37784CE170EB11E00B7B7C8 /* RevealSegue.m */,
+			);
+			path = RevealSideSegue;
+			sourceTree = "<group>";
+		};
+		E37784F2170EBF3A00B7B7C8 /* RevealSideSegueDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E37784F3170EC00600B7B7C8 /* HomeView.storyboard */,
+				E37784F4170EC00600B7B7C8 /* HomeViewController.h */,
+				E37784F5170EC00600B7B7C8 /* HomeViewController.m */,
+				E37784F6170EC00600B7B7C8 /* SideViewController.h */,
+				E37784F7170EC00600B7B7C8 /* SideViewController.m */,
 				E37784A6170EB09600B7B7C8 /* AppDelegate.h */,
 				E37784A7170EB09600B7B7C8 /* AppDelegate.m */,
-				E377849E170EB09600B7B7C8 /* Supporting Files */,
 			);
-			name = RevealSideSegueDemo;
+			path = RevealSideSegueDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +261,7 @@
 				E37784AA170EB09600B7B7C8 /* Default.png in Resources */,
 				E37784AC170EB09600B7B7C8 /* Default@2x.png in Resources */,
 				E37784AE170EB09600B7B7C8 /* Default-568h@2x.png in Resources */,
-				E37784D3170EB27100B7B7C8 /* HomeView.storyboard in Resources */,
+				E37784F8170EC00600B7B7C8 /* HomeView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +299,8 @@
 				E37784A4170EB09600B7B7C8 /* main.m in Sources */,
 				E37784A8170EB09600B7B7C8 /* AppDelegate.m in Sources */,
 				E37784CF170EB11E00B7B7C8 /* RevealSegue.m in Sources */,
-				E37784D8170EB2D300B7B7C8 /* HomeViewController.m in Sources */,
-				E37784D9170EB2D300B7B7C8 /* SideViewController.m in Sources */,
+				E37784F9170EC00600B7B7C8 /* HomeViewController.m in Sources */,
+				E37784FA170EC00600B7B7C8 /* SideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
